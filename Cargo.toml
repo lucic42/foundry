@@ -132,14 +132,14 @@ revm = { version = "3", default-features = false }
 revm-primitives = { version = "1", default-features = false }
 
 ## ethers
-ethers = { version = "2.0", default-features = false }
-ethers-core = { version = "2.0", default-features = false }
-ethers-contract = { version = "2.0", default-features = false }
-ethers-contract-abigen = { version = "2.0", default-features = false }
-ethers-providers = { version = "2.0", default-features = false }
-ethers-signers = { version = "2.0", default-features = false }
-ethers-middleware = { version = "2.0", default-features = false }
-ethers-solc = { version = "2.0", default-features = false }
+ethers = { version = "0.13.0", default-features = false }
+ethers-core = { version = "0.13.0", default-features = false }
+ethers-contract = { version = "0.13.0", default-features = false }
+ethers-contract-abigen = { version = "0.13.0", default-features = false }
+ethers-providers = { version = "0.13.0", default-features = false }
+ethers-signers = { version = "0.13.0", default-features = false }
+ethers-middleware = { version = "0.13.0", default-features = false }
+ethers-solc = { version = "0.13.0", default-features = false }
 
 ## alloy
 alloy-primitives = "0.5.0"
@@ -187,15 +187,6 @@ tower-http = "0.4"
 #ethers-solc = { path = "../ethers-rs/ethers-solc" }
 
 [patch.crates-io]
-ethers = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-contract = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-contract-abigen = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-middleware = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-ethers-solc = { git = "https://github.com/gakonst/ethers-rs", rev = "f0e5b194f09c533feb10d1a686ddb9e5946ec107" }
-
 revm = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
 revm-interpreter = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
 revm-precompile = { git = "https://github.com/bluealloy/revm", branch = "reth_freeze" }
